@@ -15,3 +15,9 @@ python:
 sphinx:
   configuration: docs/source/conf.py
   fail_on_warning: true
+
+# Enabling PDF and EPUB builds
+# After this change, PDF and EPUB downloads will be available both from the “Downloads” section of the project home, as well as the flyout menu.
+formats:
+  - pdf
+  - epub
